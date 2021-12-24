@@ -1,0 +1,1 @@
+Boilerplate Moralis Project made with vanilla JS
