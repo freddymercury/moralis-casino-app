@@ -8,7 +8,7 @@ async function login() {
   let user = Moralis.User.current();
   if (!user) {
    try {
-      user = await Moralis.authenticate({ signingMessage: "Hello World!" })
+      user = await Moralis.authenticate({ signingMessage: "Hello Web3 World!" })
       console.log(user)
       console.log(user.get('ethAddress'))
    } catch(error) {
